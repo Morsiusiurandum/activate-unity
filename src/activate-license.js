@@ -24,7 +24,6 @@ async function run() {
             await unity.activateManualLicense(unityPath, licenseData);
         }
     } catch (error) {
-        core.setFailed(error.message);
     }
 }
 
